@@ -1,0 +1,46 @@
+
+
+
+<form [formGroup]="contactForm" autocomplete="off" (ngSubmit)="sendMessage()" >
+  <div id="formulario">
+    <h1>Contacto</h1>
+  <div id="cajaDeInputs">
+
+
+  <div id="inputs">
+    <span class="p-float-label">
+      <input type="text" pInputText formControlName="nombre"><br>
+      <label for="nombre">Nombre</label>
+    </span>
+    <span *ngIf="contactForm.controls['nombre'].getError('required')">Este campo es obligatorio</span>
+  </div>
+
+  <div id="inputs">
+    <span class="p-float-label">
+      <input type="text" pInputText formControlName="email"><br>
+      <label for="email">Email</label>
+    </span>
+    <span *ngIf="contactForm.controls['email'].getError('required')">Este campo es obligatorio</span>
+    <span *ngIf="contactForm.controls['email'].getError('email')">Debe ser email</span>
+  </div>
+
+  <div id="inputs">
+    <span class="p-float-label">
+      <textarea rows="5" cols="30" pInputTextarea formControlName="mensaje"></textarea><br>
+      <label for="mensaje">Mensaje</label>
+    </span>
+    <span *ngIf="contactForm.controls['mensaje'].getError('required')">Este campo es obligatorio</span>
+  </div>
+  <div id="boton">
+    <shared-button [tipo]="'submit'" [nombreBoton]="'Enviar'" [tipoBoton]="'danger'"></shared-button>
+  </div>
+</div>
+</div>
+<p-toast position="top-center" key="tc"></p-toast>
+</form>
+
+
+
+
+
+

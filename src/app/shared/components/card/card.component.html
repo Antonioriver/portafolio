@@ -1,0 +1,11 @@
+<p-card id="card" header="{{nombre }}" subheader="{{realizadoEn}}" [style]="{ maxwidth: '360px' }">
+  <ng-template pTemplate="header">
+      <img alt="Imagen" src="{{imagen}}" />
+  </ng-template>
+  <p>
+      {{descripcion}}
+  </p>
+  <ng-template pTemplate="footer">
+    <a href="{{url}}"><p-button label="Visitar" icon="pi pi-check"></p-button></a>
+  </ng-template>
+</p-card>

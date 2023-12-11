@@ -1,0 +1,31 @@
+/* #footer{
+  position: absolute;
+   left: 0px; 
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+} */
+#contenido{
+  width: 100%;
+}
+#iconosSociales{
+  display: grid;
+  grid-template-columns: repeat(14,1fr);
+}
+
+img{
+  padding-left: 5%;
+}
+#angular{
+  grid-column: 2;
+}
+#linkedin{
+  grid-column: 12;
+}
+#gmail{
+  grid-column: 13;
+}
+#github{
+  grid-column: 14;
+}
+

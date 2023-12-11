@@ -1,0 +1,23 @@
+/* #proyectosTerminados {
+  margin-top: 10rem;
+}
+#proyectosEnProceso{
+  margin-top: 50rem;
+} */
+#principal{
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+#proyectos{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /* align-items:end */
+
+}
+shared-card{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+

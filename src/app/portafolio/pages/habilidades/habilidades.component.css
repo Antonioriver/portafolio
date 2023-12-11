@@ -1,0 +1,44 @@
+#principal {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+div{
+  margin-bottom: 3rem;
+}
+img{
+  padding-bottom: 2rem;
+}
+#cajaLenguajes{
+  margin-left: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+#cajaDatabases{
+  margin-left: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+#cajaBackend{
+  margin-left: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+#cajaProximasHabilidades{
+  margin-left: 10rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
+/* #lenguajes{
+  margin-left: 5%;
+} */
