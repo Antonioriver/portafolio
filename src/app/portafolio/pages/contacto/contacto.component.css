@@ -16,5 +16,28 @@ textarea{
   width: 60%;
 }
 
+@media (max-width:550px){
+  #formulario{
+    margin-left: 15%;
+  }
+  input{
+    width: 80%;
+  }
+  textarea{
+    width: 80%;
+  }
+}
+@media (max-width:800px){
+  #formulario{
+    margin-left: 15%;
+  }
+  input{
+    width: 80%;
+  }
+  textarea{
+    width: 80%;
+  }
+}
+
 
 
